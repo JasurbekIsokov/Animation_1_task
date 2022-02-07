@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.ellipce1 {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  background-color: red;
+  clip-path: circle(2% at 50% 40%);
+  animation-name: ellipce1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ellipce2 {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  background-color: blue;
+  clip-path: circle(2% at 55% 40%);
+  animation-name: ellipce2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ellipce3 {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  background-color: green;
+  clip-path: circle(2% at 55% 50%);
+  animation-name: ellipce3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ellipce4 {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  background-color: orange;
+  clip-path: circle(2% at 50% 50%);
+  animation-name: ellipce4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ellipce1 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    left: 4.4%;
+    top: 0;
+  }
+
+  50% {
+    left: 4.4%;
+    top: 9%;
+  }
+
+  75% {
+    left: 0%;
+    top: 9%;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+@keyframes ellipce2 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    left: 0%;
+    top: 9%;
+  }
+
+  50% {
+    left: -4.4%;
+    top: 9%;
+  }
+
+  75% {
+    left: -4.4%;
+    top: 0%;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+@keyframes ellipce3 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    left: -4.4%;
+    top: 0;
+  }
+
+  50% {
+    left: -4.4%;
+    top: -9%;
+  }
+
+  75% {
+    left: 0%;
+    top: -9%;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+@keyframes ellipce4 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    left: 0;
+    top: -9%;
+  }
+
+  50% {
+    left: 4.4%;
+    top: -9%;
+  }
+
+  75% {
+    left: 4.4%;
+    top: 0;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
